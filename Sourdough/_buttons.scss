@@ -1,0 +1,57 @@
+@use './variables' as *;
+
+.btn {
+  font-size: font-size(18);
+  font-weight: weight(large);
+  line-height: line-height('body-l');
+  color: color(secondary-white);
+  background: color(light-blue);
+  border-radius: 8px;
+  padding: 16px 32px;
+  display: block;
+  border: none;
+  text-align: center;
+
+  &:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: color(primary-white);
+    color: color(light-blue);
+    box-shadow: inset 0px 0px 0px 5px color(light-blue);
+  }
+}
+
+.light-btn {
+  color: color(light-blue);
+  font-size: font-size(18);
+  font-weight: weight(large);
+  line-height: line-height('body-l');
+}
+
+.btn-secondary {
+  background: color(light-gray);
+  color: color(darker-blue);
+}
+
+.btn__sign-up {
+  color: color(darker-blue);
+  background-color: color(light-gray);
+}
+
+.btn__sign-up--active {
+  background: color(secondary-white);
+}
+
+.btn__submit {
+  margin-left: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer__buttons-link {
+  padding: 16px 14px 16px 58px;
+  color: color(darker-blue) !important;
+  background: color(primary-white);
+}

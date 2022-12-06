@@ -1,0 +1,70 @@
+@use './variables' as *;
+
+.head__extra-small {
+  font-size: font-size(24);
+  line-height: line-height('headline-5');
+  color: color(darker-blue);
+}
+
+.head__small {
+  font-size: font-size(32);
+  font-weight: weight(large);
+  line-height: line-height('headline-5');
+  color: color(darker-blue);
+  letter-spacing: 0.02em;
+}
+
+.head__normal {
+  font-size: font-size(40);
+  font-weight: weight(large);
+  line-height: line-height('headline-4');
+}
+
+.head__large {
+  font-size: font-size(53);
+  font-weight: weight(large);
+  line-height: line-height('headline-2');
+}
+
+.heroes__head {
+  font-weight: weight(large);
+  font-size: font-size(64);
+  line-height: line-height('headline-1');
+  margin-bottom: 32px;
+  color: color(darker-blue);
+}
+
+.partners__head {
+  margin-bottom: 24px;
+  text-align: start;
+}
+
+.card__head {
+  margin-bottom: 8px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.poster__head {
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+.quote__head {
+  margin-bottom: 32px;
+}
+
+.heroes2__head {
+  margin-bottom: 32px;
+}
+
+.content__head {
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+
+.form__head {
+  margin-bottom: 24px;
+  text-align: start;
+}

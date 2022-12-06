@@ -1,0 +1,53 @@
+$font-size: (
+  14: 14px,
+  18: 18px,
+  24: 24px,
+  32: 32px,
+  40: 40px,
+  53: 53px,
+  56: 56px,
+  64: 64px,
+);
+
+@function font-size($font-name) {
+  @return map-get($font-size, $font-name);
+}
+
+$font-weight: (
+  'normal': 400,
+  'large': 600,
+);
+
+@function weight($weight-name) {
+  @return map-get($font-weight, $weight-name);
+}
+
+$line-height: (
+  'body-m': calc(18px / 14px),
+  'body-l': calc(24px / 18px),
+  'headline-5': calc(32px / 24px),
+  'headline-4': calc(48px / 40px),
+  'headline-3': calc(64px / 56px),
+  'headline-2': calc(69px / 53px),
+  'headline-1': calc(72px / 64px),
+);
+
+@function line-height($height-name) {
+  @return map-get($line-height, $height-name);
+}
+
+$color: (
+  'light-blue': #5555ff,
+  'dark-blue': #242464,
+  'darker-blue': #171740,
+  'primary-white': #fafaff,
+  'secondary-white': #ffffff,
+  'input-color': #5d5dc5,
+  'orange-span': #fcaf3b,
+  'hover': #a6a6c4,
+  'light-gray': #efeff8,
+);
+
+@function color($color-name) {
+  @return map-get($color, $color-name);
+}

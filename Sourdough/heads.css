@@ -1,0 +1,68 @@
+.head__extra-small {
+  font-size: 24px;
+  line-height: 1.3333333333;
+  color: #171740;
+}
+
+.head__small {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3333333333;
+  color: #171740;
+  letter-spacing: 0.02em;
+}
+
+.head__normal {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.head__large {
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 1.3018867925;
+}
+
+.heroes__head {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.125;
+  margin-bottom: 32px;
+  color: #171740;
+}
+
+.partners__head {
+  margin-bottom: 24px;
+  text-align: start;
+}
+
+.card__head {
+  margin-bottom: 8px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.poster__head {
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+.quote__head {
+  margin-bottom: 32px;
+}
+
+.heroes2__head {
+  margin-bottom: 32px;
+}
+
+.content__head {
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+
+.form__head {
+  margin-bottom: 24px;
+  text-align: start;
+}/*# sourceMappingURL=heads.css.map */
